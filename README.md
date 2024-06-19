@@ -27,3 +27,23 @@ Run the script:
 
 ```python3 game_directory_processor.py <source_directory> <target_directory>```
 Replace <source_directory> with the path to your source directory and <target_directory> with the path to your desired target directory.
+
+
+
+## Example
+
+Given the following directory structure in source_directory:
+
+```source_directory/
+├── game1_game
+│   └── main.go
+├── game2_game
+│   └── main.go
+```
+
+
+
+
+
+
+
