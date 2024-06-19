@@ -12,4 +12,5 @@ Generate Metadata: Creates a JSON metadata file containing the names and count o
 ## Requirements
 
 Python 3.x
+
 Go programming language (for compiling game code)
