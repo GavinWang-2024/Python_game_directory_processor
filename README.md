@@ -14,3 +14,16 @@ Generate Metadata: Creates a JSON metadata file containing the names and count o
 Python 3.x
 
 Go programming language (for compiling game code)
+
+
+## Usage
+
+Prepare your directories:
+
+Create a source directory containing your game directories.
+Ensure each game directory name includes the pattern "game".
+
+Run the script:
+
+```python3 game_directory_processor.py <source_directory> <target_directory>```
+Replace <source_directory> with the path to your source directory and <target_directory> with the path to your desired target directory.
