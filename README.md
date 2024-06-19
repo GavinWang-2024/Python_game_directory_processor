@@ -34,12 +34,31 @@ Replace <source_directory> with the path to your source directory and <target_di
 
 Given the following directory structure in source_directory:
 
-```source_directory/
+```
+source_directory/
 ├── game1_game
 │   └── main.go
 ├── game2_game
 │   └── main.go
 ```
+
+Running the script with:
+
+```python3 game_directory_processor.py source_directory target_directory```
+
+
+Will result in:
+
+```
+target_directory/
+├── game1
+│   └── main (compiled binary)
+├── game2
+│   └── main (compiled binary)
+└── metadata.json
+```
+
+
 
 
 
