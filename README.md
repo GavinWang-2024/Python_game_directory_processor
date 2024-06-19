@@ -61,11 +61,17 @@ target_directory/
 ## Functions
 
 ```find_all_game_paths(source)```: Finds all directories containing the specified game pattern.
+
 ```get_name_from_paths(paths, to_strip)```: Strips a specified substring from directory names.
+
 ```create_dir(path)```: Creates a directory if it does not exist.
+
 ```copy_and_overwrite(source, dest)```: Copies a directory and overwrites the destination if it exists.
+
 ```make_json_metadata_file(path, game_dirs)```: Creates a JSON file with game metadata.
+
 ```compile_game_code(path)```: Compiles Go code found in the specified directory.
+
 ```run_command(command, path)```: Runs a shell command in the specified directory.
 
 
