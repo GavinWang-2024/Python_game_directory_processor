@@ -1,6 +1,6 @@
 # Game Directory Processor
 
-This Python script processes game directories, compiles the game code, and generates metadata for the games found within a specified source directory.
+Processes game directories, compiles the game code, and generates metadata for the games found within a specified source directory.
 
 ## Features
 
